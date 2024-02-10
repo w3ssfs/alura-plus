@@ -29,9 +29,6 @@ body {
 }
 
 .content__main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   margin: 7.8rem 0px 0px 3.1rem;
 }
 
