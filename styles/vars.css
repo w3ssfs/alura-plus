@@ -1,0 +1,12 @@
+:root {
+  /* COLORS */
+  --white-main: #ffffff;
+  --gray-secund: #c0c0c0;
+
+  /* BACKGROUND */
+  --btn-blue: #167bf7;
+  --bg-background: #00030c;
+
+  /* FONTS */
+  --font-inter: "Inter", sans-serif;
+}
