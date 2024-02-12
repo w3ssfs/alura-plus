@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 
 * {
   padding: 0;
@@ -14,12 +14,16 @@ body {
   color: var(--white-main);
   font-family: var(--font-inter);
   text-align: center;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .main {
   background-image: url("/assets/Background.png");
   background-repeat: no-repeat;
   background-size: contain;
+  align-items: center;
+  text-align: center;
 }
 
 .container {
@@ -29,36 +33,32 @@ body {
 }
 
 .content__main {
-  margin: 7.8rem 0px 0px 3.1rem;
+  margin: 7.8rem 0px 3.1rem 5.75rem;
+  max-width: 588px;
 }
 
 .content__combo {
+  margin: 1.37rem 0 3.37rem 0;
+}
+
+.links {
+  display: block;
+  text-decoration: none;
+  font-family: var(--font-inter);
+  text-align: center;
+  color: var(--white-main);
+  padding: 1em;
+  font-size: 16px;
+  border-radius: 5px;
 }
 
 .link__btn__plus {
-  display: block;
-  text-decoration: none;
   background-color: var(--btn-blue);
-  font-family: var(--font-inter);
-  border-radius: 5px;
-  color: var(--white-main);
-  padding: 1em;
-  width: 512px;
-
-  text-align: center;
 }
 
 .link__btn__alu {
-  margin-top: 1rem;
-  display: block;
-  text-decoration: none;
   background-color: transparent;
-  font-family: var(--font-inter);
-  color: var(--white-main);
-  border-radius: 5px;
-  padding: 1em;
-  width: 512px;
-  text-align: center;
+  margin-top: 1rem;
   border: 1px white solid;
 }
 
