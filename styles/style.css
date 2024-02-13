@@ -19,7 +19,7 @@ body {
 }
 
 .main {
-  background-image: url("/assets/Background.png");
+  background-image: url(../assets/Background.png);
   background-repeat: no-repeat;
   background-size: contain;
   align-items: center;
