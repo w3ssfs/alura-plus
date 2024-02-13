@@ -70,3 +70,35 @@ body {
   color: var(--gray-secund);
   font-family: var(--font-inter);
 }
+
+.content_secund {
+  width: 80%;
+}
+
+.secund {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.container__title {
+  color: var(--white-main);
+  font-size: 48px;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  margin-bottom: 0.2em;
+}
+
+.description__title {
+  color: var(--gray-secund);
+  font-family: var(--font-inter);
+}
+
+.description__title__three {
+  color: var(--gray-secund);
+  font-family: var(--font-inter);
+  padding-right: 10em;
+}
+.lin {
+  display: inline-block;
+  margin-top: 16px;
+}
