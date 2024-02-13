@@ -102,3 +102,29 @@ body {
   display: inline-block;
   margin-top: 16px;
 }
+
+.dispositivos {
+  text-align: center;
+}
+
+.dispositivos__title {
+  color: var(--white-main);
+  font-size: 48px;
+  font-family: var(--font-inter);
+  font-weight: 700;
+}
+
+.dispositivos__list {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+  list-style-type: none;
+  margin: 5em 0;
+}
+
+.list_item {
+  color: var(--white-main);
+  font-size: 32px;
+  font-family: var(--font-inter);
+  font-weight: 700;
+}
