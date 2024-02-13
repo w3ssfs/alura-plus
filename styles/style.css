@@ -52,6 +52,10 @@ body {
   border-radius: 5px;
 }
 
+.links:hover {
+  background-color: #167bf7a9;
+}
+
 .link__btn__plus {
   background-color: var(--btn-blue);
 }
@@ -60,6 +64,10 @@ body {
   background-color: transparent;
   margin-top: 1rem;
   border: 1px white solid;
+}
+
+.link__btn__alu:hover {
+  background-color: transparent;
 }
 
 .link__p {
@@ -119,7 +127,7 @@ body {
   justify-content: center;
   gap: 5em;
   list-style-type: none;
-  margin: 5em 0;
+  margin: 5em 0 13em;
 }
 
 .list_item {
@@ -127,4 +135,39 @@ body {
   font-size: 32px;
   font-family: var(--font-inter);
   font-weight: 700;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  margin-bottom: 7em;
+}
+
+.footer__list {
+  margin: 3em 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 16px;
+}
+
+.link__List {
+  font-family: var(--font-inter);
+  font-weight: 400;
+}
+
+.link__list__ln {
+  color: var(--white-main);
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.link__list__ln:hover {
+  color: var(--gray-secund);
+  transform: scale(1.2);
+}
+.footer__text {
+  color: var(--gray-secund);
+  font-size: 14px;
+  font-family: var(--font-inter);
 }
