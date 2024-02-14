@@ -206,4 +206,15 @@ body {
   .description__title__three {
     padding-right: 0;
   }
+  .dispositivos__list {
+    display: block;
+  }
+
+  .footer__list {
+    display: block;
+  }
+
+  .link__List {
+    margin-top: 1em;
+  }
 }
