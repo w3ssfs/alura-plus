@@ -104,7 +104,7 @@ body {
 .description__title__three {
   color: var(--gray-secund);
   font-family: var(--font-inter);
-  padding-right: 10em;
+  padding-right: 2em;
 }
 .lin {
   display: inline-block;
@@ -175,4 +175,35 @@ body {
   color: var(--gray-secund);
   font-size: 14px;
   font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+    background-image: none;
+  }
+
+  .content__combo {
+    width: 50vw;
+  }
+
+  .content__main {
+    margin: 2em 2em;
+  }
+  .link__p {
+    width: 80vw;
+  }
+  .secund {
+    margin: 0;
+    text-align: center;
+  }
+
+  .content_secund {
+    margin-top: 1em;
+    width: 50vw;
+  }
+
+  .description__title__three {
+    padding-right: 0;
+  }
 }
